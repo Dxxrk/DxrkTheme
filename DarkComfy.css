@@ -191,13 +191,13 @@
 
 /* adds watermark */
 :root{
-    --version-number        :               "1.0";
+    --version-number        :               "0.1";
 }
 .wordmarkWindows-2dq6rw svg {
    display                  :               none;
 }
 .wordmarkWindows-2dq6rw::before{
-   content                  :               'ComfyGray';
+   content                  :               'DARK';
    font-size                :               13px;
    font-weight              :               700;
    top                      :               4px;
