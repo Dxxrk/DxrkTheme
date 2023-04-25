@@ -18,6 +18,9 @@
     --settingsiconsgap      :               14px;
     --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
     --user-area: calc(var(--server-size) + 265px);
+	--avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
+	--server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+    --transition: 0.15s ease;
 }
 
 .theme-dark,.theme-light {
