@@ -13,12 +13,71 @@
 
 @import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-settings.css");
 
+
+
 :root {
     --settingsiconssize     :               18px;
     --settingsiconsgap      :               14px;
+	--server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
+    --user-area: calc(var(--server-size) + 175px);
 }
 
+.panels-3wFtMD > .container-YkUktl {
+    background: transparent;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    flex-direction: column-reverse;
+    padding: 0 0 24px;
+    width: var(--guilds-width, 72px);
+    height: auto;
+    border-top: none;
+    & > [style='flex: 0 1 auto;'] {
+        flex-direction: column;
+        width: 100%;
+        .button-12Fmur {
+            width: 100%;
+            border-radius: 0;
+            padding: 12px 0;
+            height: auto;
+        }
+    }
+    .avatarWrapper-1B9FTW {
+        margin-right: 0;
+        margin-top: 12px;
+        .svg-1G_H_8 {
+            width: 50px;
+            height: 50px;
+            transform: translate(1px, 1px);
+        }
+    }
+    .avatar-1EWyVD {
+        width: 42px !important;
+        height: 42px !important;
+    }
+}
 
+.nameTag-sc-gpq {
+    display: none;
+}
+.guilds-2JjMmN {
+    .tree-3agP2X {
+        outline: none !important;
+    }
+    .scroller-3X7KbA {
+        margin-bottom: var(--user-area, 220px);
+    }
+    .unreadMentionsIndicatorBottom-3RJMnQ {
+        bottom: calc(var(--user-area) + 10px);
+    }
+}
+// User area
+.container-YkUktl {
+    background: transparent;
+    padding: 0 16px;
+    height: 64px;
+    border-top: 1px solid var(--border);
+}
  
 .theme-dark,.theme-light {
     --header-primary        :             #fff;
