@@ -23,6 +23,10 @@
     --transition: 0.15s ease;
 }
 
+.nameTag-sc-gpq {
+	display: none;
+}
+
 .theme-dark,.theme-light {
     --header-primary        :             #fff;
     --header-secondary      :             #b9bbbe;
