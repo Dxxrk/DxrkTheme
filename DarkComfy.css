@@ -18,8 +18,8 @@
 :root {
     --settingsiconssize     :               18px;
     --settingsiconsgap      :               14px;
-	--guilds-width: 105px; /* Width of the server list. | Default: 105px */
-	--server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
+    --guilds-width: 105px; /* Width of the server list. | Default: 105px */
+    --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
     --user-area: calc(var(--server-size) + 175px);
 }
 
