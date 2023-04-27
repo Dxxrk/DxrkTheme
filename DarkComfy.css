@@ -2591,7 +2591,7 @@ body #app-mount .tooltip-14MtrL{
     background: var(--background-secondary);
 }
 :root {
-    --embed-line-width: calc(100vw - 520px);;
+    --embed-line-width: calc(100vw - 480px);;
 }
 .embedFull-1HGV2S {
     border-left: calc(var(--embed-line-width)) solid var(--background-accent);
