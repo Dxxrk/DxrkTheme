@@ -1,9 +1,8 @@
 /**
-* @name DarkComfy
-* @version 1.0
-* @author 中野二乃#4366
-* @description A gray theme with animation!
-* @source https://github.com/Byeter228/DarkComfy
+	* @name DarkComfy
+	* @version 0.1
+	* @author 中野二乃#4366
+	* @description Test
 */
 
 
@@ -244,7 +243,7 @@
 
 /* adds watermark */
 :root{
-    --version-number        :               "1.0";
+    --version-number        :               "0.1";
 }
 .wordmarkWindows-2dq6rw svg {
    display                  :               none;
@@ -2592,10 +2591,10 @@ body #app-mount .tooltip-14MtrL{
     background: var(--background-secondary);
 }
 :root {
-    --embed-line-width: 256px;
+    --embed-line-width: calc(100vw - 480px);;
 }
 .embedFull-1HGV2S {
-    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+    border-left: calc(var(--embed-line-width)) solid var(--background-accent);
     background: var(--background-secondary);
 }
 .grid-1aWVsE {
@@ -2615,7 +2614,7 @@ body #app-mount .tooltip-14MtrL{
 }
 .embedFull-1HGV2S:before {
     background: var(--background-secondary);
-    opacity: .8;
+    opacity: 0.25;
 }
 
 /* Discord Links */
@@ -2654,7 +2653,7 @@ body #app-mount .tooltip-14MtrL{
     background: transparent;
 }
 body #app-mount div.mention-3XBnnZ{
-    background-color: #666;
+    background-color: #b07777;
     
 }   
 
