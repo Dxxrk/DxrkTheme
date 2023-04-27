@@ -1,8 +1,9 @@
 /**
-	* @name DarkComfy
-	* @version 0.1
-	* @author 中野二乃#4366
-	* @description Test
+* @name DarkComfy
+* @version 1.0
+* @author 中野二乃#4366
+* @description A gray theme with animation!
+* @source https://github.com/Byeter228/DarkComfy
 */
 
 
@@ -243,7 +244,7 @@
 
 /* adds watermark */
 :root{
-    --version-number        :               "0.1";
+    --version-number        :               "1.0";
 }
 .wordmarkWindows-2dq6rw svg {
    display                  :               none;
