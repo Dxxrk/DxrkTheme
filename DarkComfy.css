@@ -1668,7 +1668,7 @@ button[aria-label="Show Game Activity"]::before {
   position                  :               absolute;
   height                    :               100%;
   width                     :               100%;
-  opacity                   :               .13;
+  opacity                   :               .90;
   border-radius             :               5px;
   bottom                    :               0px;
 }
