@@ -1535,10 +1535,49 @@ button[aria-label="Show Game Activity"]::before {
     border-radius           :               15px;
 }
 
+/* restyle user area */
+.wrapper-3Hk9OB, .container-1zzFcN {
+	background-color : transparent !important;
+	border-radius           :               15px;
+	margin: 0px  0px  -1px  0px;
+}
+	
+.button-1EGGcP {
+	border-radius           :               15px;
+	height: 35px;
+	min-height: 35px;
+}
 
+/* border-radius search */
+.searchBar-3TnChZ, .searchBarComponent-3N7dCG {
+	border-radius           :               35px;
+	margin: 0px 3px -10px 3px;
+}
+	
+.input-3r5zZY {
+	border-radius           :               35px;
+	height: 50px;
+	margin: 0px 0px -10px 0px;
+}
 
+/* send friend request button */
+.button-ejjZWC {
+	border-radius           :               35px;
+}
 
+/* edit voice activity bar settings */
+.wrapper-UvA17F, .container-3NTP7o, .progress-1S-TDF, .notches-2w7UZJ {
+	color        :             transparent !important;
+}
 
+.container-3NTP7o {
+	border-radius           :               15px;
+}
+	
+/* animate voice activity */
+.progress-1S-TDF {
+	transition: 0.5s ease;
+}
 
 /* add a server/discovery restyle */
 .focusLock-2tveLW .flex-2S1XBF, [class="flex-2S1XBF flex-3BkGQD horizontalReverse-60Katr horizontalReverse-2QssvL flex-3BkGQD directionRowReverse-HZatnx justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz footer-31IekZ footer-3ie9JP footerSeparator-VzAYwb"] {
