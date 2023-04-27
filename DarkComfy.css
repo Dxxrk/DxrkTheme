@@ -51,6 +51,10 @@
     width: calc(100% - 30px);
 }
 
+.userPopoutOuter-1OHwPL.userProfileOuter-2tQwNf.userProfileOuterThemed-2BgJCM.profileColors-2AgAV4.theme-dark.profileCustomizationPreviewWithTheme-HgdsC2.profileCustomizationPreview-3zZw6E {
+    width: calc(100% - 30px);
+}
+
 .imageUploaderInner-IIRaFr.bannerUploaderInnerSquare-2c2J8_.banner-3D8GgT {
     width: calc(100% - 30px);
     margin: 0px 300px 0px 0px;
@@ -331,20 +335,9 @@
     border-radius           :               10px;
     filter                  :               blur(1.3px) brightness(.4);
 }
-.accountProfileCard-lbN7n- > .userInfo-regn9W, .accountProfileCard-lbN7n- > .background-3d_SjE {
-    width                   :               55%;
-    position                :               relative;
-    left                    :               6%;
-    bottom                  :               300px;
-    height                  :               100px;
-}
-.accountProfileCard-lbN7n- > .userInfo-regn9W .avatar-3mTjvZ {
-    left                    :               -30px;
-    top                     :               -10px;
-}
+    
 .accountProfileCard-lbN7n- > .background-3d_SjE {
     width                   :               95%;
-    left                    :               0px;
     background-color        :             rgba(0, 0, 0, 0.26);
     overflow-y              :               scroll;
     overflow-x              :               hidden;
@@ -353,40 +346,19 @@
     visibility              :               hidden;
 }
 .accountProfileCard-lbN7n- {
-    max-height              :               300px;
     background-color        :               transparent;
-    width                   :               840px;
+    width                   :               630px;
     border-radius           :               9px;
 }
-.userInfo-regn9W {
-    margin-top              :               20px;
-}
 .fieldList-in8WkP {
-    margin-top              :               20px;
     background-color        :               transparent;
 }
 .accountProfileCard-lbN7n- > .button-f2h6uQ {
-    position                :               relative;
-    width                   :               900px;
-    left                    :               200px;
+    width                   :               650px;
 }
 .avatar-3mTjvZ {
     border                  :               none;
     background-color        :               transparent;
-}
-.profileCardUsernameRow-1bb6fi{
-    position                :               relative;
-    right                   :               55px;
-}
-.accountProfileCard-lbN7n- .button-f2h6uQ:nth-child(3){
-    position                :               relative;
-    left                    :               290px;
-}
-.accountProfileCard-lbN7n- .container-1gYwHN{
-    position                :               relative;
-    left                    :               -100%;
-    top                     :               230%;
-    margin-left             :               15px
 }
  
 
