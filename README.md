@@ -8,7 +8,7 @@
 
 <img src="https://i.ibb.co/Gv2HpBC/image.png">
 
-<p align="center">a nice, smooth, comfortable gray theme for Discord. Based on <a href="https://github.com/ObjectiveSlayer/ComfyGray">ComfyGray!</a></p>
+<p align="center">a gray theme, analog new spotify design. /p>
 
 ---
 
@@ -28,6 +28,5 @@
 ## Credits
 
 - [Obscure](https://github.com/Obscure-Git) for modern icons and user controls area addons and other css snippets i used.
-- [ObjectiveSlayer](https://github.com/ObjectiveSlayer) for created theme.
+- [ObjectiveSlayer](https://github.com/ObjectiveSlayer) for animation i used.
 
-**please inform me if i forgot anyone**
