@@ -2,6 +2,7 @@
 <p align="center">
   <a href="#dracula">overview</a> |
   <a href="#installation">installation</a> |
+  <a href="#plugins">plugins</a> |
   <a href="#credits">credits</a>
 </p>
 
@@ -18,7 +19,11 @@
   - download the theme file.
   - place it in the BetterDiscord themes folder || folder directory : %appdata%/betterdiscord/themes.
   - enable DarkComfy in the themes tab.
+  
+## Plugins
 
+  - For the theme to work correctly, the [GameActivityToggle](https://betterdiscord.app/plugin/GameActivityToggle) plugin is required.
+  
 ## Credits
 
 - [Obscure](https://github.com/Obscure-Git) for modern icons and user controls area addons and other css snippets i used.
