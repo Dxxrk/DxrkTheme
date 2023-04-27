@@ -5,7 +5,7 @@
   <a href="#credits">credits</a>
 </p>
 
-![](https://i.ibb.co/zhR6xjP/image.png)
+<p align="center"><img src="https://i.ibb.co/zhR6xjP/image.png"></a>
 
 <p align="center">a nice, smooth, comfortable gray theme for Discord. Based on <a href="https://github.com/ObjectiveSlayer/ComfyGray">ComfyGray!</a></p>
 
