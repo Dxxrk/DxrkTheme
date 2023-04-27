@@ -1,8 +1,9 @@
 /**
-	* @name DarkComfy
-	* @version 0.1
-	* @author 中野二乃#4366
-	* @description Test
+* @name DarkComfy
+* @version 1.0
+* @author 中野二乃#4366
+* @description A gray theme with animation!
+* @source https://github.com/Byeter228/DarkComfy
 */
 
 
@@ -18,10 +19,61 @@
     --settingsiconsgap      :               14px;
     --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
     --user-area: calc(var(--server-size) + 265px);
-	--avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
-	--server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+    --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
+    --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
     --transition: 0.15s ease;
 }
+
+.role-2TIOKu {
+	color: transparent;
+}
+
+.addButtonIcon-3HZ_2f {
+	width: 10px;
+	height: 10px;
+}
+
+.theme-dark .actionButton-1YKTU0 {
+	border-color: transparent;
+	color: #b9bbbe;
+	background: 0 0;
+    border-radius: 420px;
+}
+
+.role-2TIOKu {
+	transform: translate(0);
+	border: 0;
+	border-radius: 4200px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+	margin: 0;
+	left: unset;
+	transform: translate(50%, -50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+	position: static;
+}
+/* Add a colored border around the role */
+.role-2TIOKu .roleRemoveButton-17oXnT .roleCircle-3TFUOr:before {
+	content: "";
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	background: inherit;
+	border-radius: 420px;
+	border: 0.65px solid transparent;
+    -webkit-mask-image      :               linear-gradient(0.25turn, #0008, #0001) !important;
+    -webkit-mask-composite: xor;
+}
+/* border around addrole button*/
+.addButton-1_dZYu {
+	border: 1px solid;
+}
+
 
 .accountProfilePopoutWrapper-3GskID {
     margin: 10px 10px -60px 85px;
@@ -243,7 +295,7 @@
 
 /* adds watermark */
 :root{
-    --version-number        :               "0.1";
+    --version-number        :               "1.0";
 }
 .wordmarkWindows-2dq6rw svg {
    display                  :               none;
@@ -1490,7 +1542,7 @@ button[aria-label="Show Game Activity"]::before {
 
 /* add a server/discovery restyle */
 .focusLock-2tveLW .flex-2S1XBF, [class="flex-2S1XBF flex-3BkGQD horizontalReverse-60Katr horizontalReverse-2QssvL flex-3BkGQD directionRowReverse-HZatnx justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz footer-31IekZ footer-3ie9JP footerSeparator-VzAYwb"] {
-    background-color        :             #0F0F0F !important;
+   background-color        :             #0F0F0F !important;
 }
 .templatesList-uohY49 .container-x8Y1ix, [class="footerButton-24QPis button-f2h6uQ lookFilled-yCfaCM colorPrimary-2AuQVo sizeMedium-2bFIHr grow-2sR_-F"]{
     background-color        :             #131313 !important;
