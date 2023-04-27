@@ -1548,6 +1548,11 @@ button[aria-label="Show Game Activity"]::before {
 	min-height: 35px;
 }
 
+/* stream overlay */
+.panel-2ZFCRb, .activityPanel-9icbyU {
+	background-color: transparent !important;
+}
+
 /* border-radius search */
 .searchBar-3TnChZ, .searchBarComponent-3N7dCG {
 	border-radius           :               35px;
