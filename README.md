@@ -19,6 +19,7 @@
   - download the theme file.
   - place it in the BetterDiscord themes folder || folder directory : %appdata%/betterdiscord/themes.
   - enable DarkComfy in the themes tab.
+  - enable dark-theme in the Appearance tab.
   
 ## Plugins
 
