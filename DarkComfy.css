@@ -542,6 +542,11 @@
     border                  :               1px solid transparent;
     border-radius           :               25px;
 }
+
+.channelTextArea-1FufC0, .channelTextArea-11VQBuV {
+	border-radius           :               25px;
+}
+
 .input-3r5zZY{
     border-radius           :               15px;
     margin-bottom           :               15px;
