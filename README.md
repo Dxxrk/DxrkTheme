@@ -28,5 +28,6 @@
 ## Credits
 
 - [Obscure](https://github.com/Obscure-Git) for modern icons and user controls area addons and other css snippets i used.
-- [ObjectiveSlayer](https://github.com/ObjectiveSlayer) for animation i used.
+- [ObjectiveSlayer](https://github.com/ObjectiveSlayer) for animations.
+- [Byeter228] (https://github.com/Byeter228) for edited version.
 
