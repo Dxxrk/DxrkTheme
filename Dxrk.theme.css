@@ -3,38 +3,38 @@
 * @version 1.0
 * @author 中野二乃#4366
 * @description A gray theme with animation!
-* @source https://github.com/Byeter228/DarkComfy
+* @source https://github.com/Dxxrk/DxrkTheme
 */
 
 /* Main CSS Style. >> Removing this will break the Theme! << */
 
-@import url(https://dxxrk.github.io/DxrkTheme/DarkComfy.css);
+@import url(https://dxxrk.github.io/DxrkTheme/Dxrk.css);
 
 
 /* All the addon imports (Comment out or striaght up remove them to disable) */
 
 
 /* Icon change import by Obscure.#4719 */
-@import url(https://byeter228.github.io/DarkComfy/addons/icon-replace.css);
+@import url(https://dxxrk.github.io/DxrkTheme/addons/icon-replace.css);
 
 /* Radial Status by Gibbu#1211 */
-@import url(https://byeter228.github.io/DarkComfy/addons/status-icons.css);
+@import url(https://dxxrk.github.io/DxrkTheme/addons/status-icons.css);
 
 /* server Rings */
 @import url(https://dxxrk.github.io/DxrkTheme/addons/server-rings.css);
 
 /* Home Icon */
-@import url(https://byeter228.github.io/DarkComfy/addons/homeicon.css);
+@import url(https://dxxrk.github.io/DxrkTheme/addons/homeicon.css);
 
 /* Border Roles (makes the text and border the same color as the role color) */
-@import url(https://byeter228.github.io/DarkComfy/addons/roles.css);
+@import url(https://dxxrk.github.io/DxrkTheme/addons/roles.css);
 
 /* Adds the Settings Modal to make certain uis like Settings, Boosting Gui and more customisable 
-@import url(https://byeter228.github.io/DarkComfy/addons/SettingsModal.css);
+@import url(https://dxxrk.github.io/DxrkTheme/addons/SettingsModal.css);
 */
 
 /* floating server list, Remove the comment if you want it 
-@import url(https://byeter228.github.io/DarkComfy/addons/floating-guild-list.css);
+@import url(https://dxxrk.github.io/DxrkTheme/addons/floating-guild-list.css);
 */
 
 
