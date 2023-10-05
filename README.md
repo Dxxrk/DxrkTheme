@@ -1,4 +1,4 @@
-<h1 align="center">DarkComfy</h1>
+<h1 align="center">Dxrk</h1>
 <p align="center">
   <a href="#dracula">overview</a> |
   <a href="#installation">installation</a> |
@@ -8,7 +8,7 @@
 
 <img src="https://i.ibb.co/Gv2HpBC/image.png">
 
-<p align="center">a gray theme, analog new spotify design. /p>
+<p align="center">Beautiful gray theme. /p>
 
 ---
 
@@ -18,7 +18,7 @@
 
   - download the theme file.
   - place it in the BetterDiscord themes folder || folder directory : %appdata%/betterdiscord/themes.
-  - enable DarkComfy in the themes tab.
+  - enable Dxrk in the themes tab.
   - enable dark-theme in the Appearance tab.
   
 ## Plugins
