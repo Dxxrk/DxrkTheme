@@ -29,11 +29,13 @@
 /* Border Roles (makes the text and border the same color as the role color) */
 @import url(https://byeter228.github.io/DarkComfy/addons/roles.css);
 
-/* Adds the Settings Modal to make certain uis like Settings, Boosting Gui and more customisable */
+/* Adds the Settings Modal to make certain uis like Settings, Boosting Gui and more customisable 
 @import url(https://byeter228.github.io/DarkComfy/addons/SettingsModal.css);
+*/
 
-/* floating server list, Remove the comment if you want it */
+/* floating server list, Remove the comment if you want it 
 @import url(https://byeter228.github.io/DarkComfy/addons/floating-guild-list.css);
+*/
 
 
 /* add import links below this */
