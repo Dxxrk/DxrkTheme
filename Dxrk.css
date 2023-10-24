@@ -1,6 +1,6 @@
 /**
 * @name Dxrk
-* @version 1.0
+* @version 1.1
 * @author dxrk
 * @description A gray theme with animation!
 * @source https://github.com/Dxxrk/DxrkTheme
@@ -75,7 +75,7 @@
 }
 
 
-.accountProfilePopoutWrapper-3GskID {
+:is(.accountProfilePopoutWrapper-3GskID, .accountProfilePopoutWrapper-Ag_Fip) {
     margin: 10px 10px -60px 85px;
 }
 
@@ -120,7 +120,7 @@
     margin: 15px 0px 0px 0px;
 }
 
-.nameTag-sc-gpq {
+:is(.nameTag-sc-gpq, .nameTag-2Q56-H) {
 	display: none;
 }
 
@@ -329,7 +329,7 @@
 
 
 /* removes some stupid gradient bugs */
-.form-3gdLxP::before,
+:is(.form-3gdLxP, .form-3qe0Ni)::before,
 .children-3xh0VB:after,
 .option-ayUoaq:after {
 	content: none;
@@ -493,12 +493,12 @@
     border-radius           :               15px !important;
     height                  :               99.3%;
 }
-.container-3XgAHv{
+:is(.container-3XgAHv, .container-3s2w-i){
     margin-right            :               15px;
     height                  :               99.4%;
     border-radius           :               15px;
 }
-.threadSidebarOpen-1LSXvU{
+:is(.threadSidebarOpen-1LSXvU, .threadSidebarOpen-lv7sGl){
     border-radius           :               15px !important;
 }
  .guilds-2JjMmN {
@@ -510,7 +510,7 @@
      border-bottom-right-radius:            15px;
      margin-bottom          :               7.5px;
  }
- .chat-2ZfjoI{
+ :is(.chat-2ZfjoI, .chat-9g_3Xj){
      margin-right           :               10px;
      height                 :               99.3%;
      border-radius          :               15px;
@@ -531,7 +531,7 @@
     margin                  :               0 10px 0 20px;
     padding                 :               16px 10px;
 }
-.pageWrapper-2PwDoS{
+:is(.pageWrapper-2PwDoS, .pageWrapper-eg3-6i){
     margin-right            :               10px;
     height                  :               99.3%;
     border-radius           :               15px;
@@ -691,7 +691,7 @@
 	animation: UserModalButtons 0.5s normal ease;
 }
 
-.container-YkUktl .noWrap-hBpHBz {
+:is(.container-YkUktl, .container-1CH86i) .noWrap-hBpHBz {
 	width: 100px;
 	opacity: 1;
 }
@@ -772,7 +772,7 @@
 
 
 /* animates popout menus */
-.emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+.emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, :is(.container-2o3qEW, .container-2vWgD2), .container-2ebMPP, .userPopout-2j1gM4 {
     animation               :               custom-menu-animation 250ms ease;
     transform-origin        :               top;
 }
@@ -792,7 +792,7 @@
 .item-1OdjEX {
     transition              :               0.3s ease;
 }
-.winButton-3UMjdg{
+:is(.winButton-3UMjdg, .winButton-3SigSb){
     right                   :               8.5px;
     border-radius           :               5px;
     transition              :               0.5s ease;
@@ -828,7 +828,7 @@
 
  
 /* user controls */
-.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+.panels-3wFtMD :is(.container-YkUktl, .container-1CH86i):last-child .flex-2S1XBF {
     position                :               fixed;
     bottom                  :               calc(0% + 155px);
     left                    :               10px;
@@ -842,7 +842,7 @@
     padding                 :               0px 10px;
 }
 
-.container-YkUktl:last-child .flex-2S1XBF>button {
+:is(.container-YkUktl, .container-1CH86i):last-child .flex-2S1XBF>button {
     padding                 :               25px !important;
     margin                  :               0px;
     color                   :             #747474;
@@ -850,7 +850,7 @@
     transition              :               ease 0.3s;
 }
 
-.container-YkUktl:last-child .flex-2S1XBF>button:last-child {
+:is(.container-YkUktl, .container-1CH86i):last-child .flex-2S1XBF>button:last-child {
     margin-top              :               5px;
     padding                 :               25px !important;
     position                :               fixed;
@@ -860,25 +860,25 @@
     transition              :               ease 0.3s;
 }
 
-.container-YkUktl:last-child .flex-2S1XBF>button:hover,
-.container-YkUktl:last-child .flex-2S1XBF>button:last-child:hover {
+:is(.container-YkUktl, .container-1CH86i):last-child .flex-2S1XBF>button:hover,
+:is(.container-YkUktl, .container-1CH86i):last-child .flex-2S1XBF>button:last-child:hover {
     color                   :             #fff;
     border-radius           :               50%;
 }
 
-.panels-3wFtMD>.container-YkUktl:last-child>.avatarWrapper-1B9FTW {
+.panels-3wFtMD>:is(.container-YkUktl, .container-1CH86i):last-child>:is(.avatarWrapper-1B9FTW, .avatarWrapper-12uuu4) {
     position                :               fixed;
     bottom                  :               calc(0% + 20px);
     left                    :               13.5px;
 }
 
-.panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD {
+.panels-3wFtMD>:is(.container-YkUktl, .container-1CH86i):last-child :is(.avatar-1EWyVD, .avatar-19siqs) {
     width                   :               55px !important;
     height                  :               55px !important;
     border-radius           :               50% !important;
 }
 
-.panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD>svg {
+.panels-3wFtMD>:is(.container-YkUktl, .container-1CH86i):last-child :is(.avatar-1EWyVD, .avatar-19siqs)>svg {
     width                   :               55px;
     height                  :               55px;
     border-radius           :               50% !important;
@@ -962,11 +962,11 @@ button[aria-label="Show Game Activity"]::before {
     position                :               relative;
     right                   :               1%;
 }
-.form-3gdLxP{
+:is(.form-3gdLxP, .form-3qe0Ni){
     top                     :               13px;
     margin-top              :               -10px;
 }
-.form-3gdLxP{
+:is(.form-3gdLxP, .form-3qe0Ni){
     margin-top              :               19px;
 }
 .scrollerSpacer-3AqkT9{
@@ -1616,20 +1616,20 @@ button[aria-label="Show Game Activity"]::before {
 }
 
 /* restyle user area 
-.wrapper-3Hk9OB, .container-1zzFcN {
+:is(.wrapper-3Hk9OB, .wrapper-VSquwh), :is(.container-1zzFcN, .container-2NLBJg) {
 	background-color : transparent !important;
 	border-radius           :               15px;
 	margin: 0px  0px  -1px  0px;
 }
 	
-.button-1EGGcP {
+:is(.button-1EGGcP, .button-2gNyE9) {
 	border-radius           :               15px;
 	height: 35px;
 	min-height: 35px;
 }
 
 /* stream overlay 
-.panel-2ZFCRb, .activityPanel-9icbyU {
+:is(.panel-2ZFCRb, .panel-ufc1-o), .activityPanel-9icbyU {
 	background-color: transparent !important;
 }
 
@@ -1695,7 +1695,7 @@ button[aria-label="Show Game Activity"]::before {
 .categoryItem-Kc_HK_ {
     margin-bottom           :               10px;
 }
-.pageWrapper-2PwDoS{
+:is(.pageWrapper-2PwDoS, .pageWrapper-eg3-6i){
     background-color        :             #121212 !important;
 }
 .scroller-3j5xK2::-webkit-scrollbar{
@@ -1803,24 +1803,24 @@ button[aria-label="Show Game Activity"]::before {
 
 
 /* memberlist */
-.members-3WRCEx {
+:is(.members-3WRCEx, .members-2y1nVj) {
     height                  :               auto;
     max-height              :               100vh;
 }
 .layout-1qmrhw {
     justify-content         :               unset;
 }
-.chatContent-3KubbW:not(:last-child) {
+:is(.chatContent-3KubbW, .chatContent-2O4SXb):not(:last-child) {
     margin-right            :               65px;
 }
-:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t {
+:not(.ChannelDms-channelmembers-wrap) :is(.membersWrap-3NUR2t, .membersWrap-3GwLFp) {
     position                :               absolute;
     right                   :               0;
     width                   :               unset;
     min-width               :               65px;
     height                  :               100%;
 }
-:not(.ChannelDms-channelmembers-wrap) .members-3WRCEx {
+:not(.ChannelDms-channelmembers-wrap) :is(.members-3WRCEx, .members-2y1nVj) {
     width                   :               65px;
     transition              :               width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
@@ -1831,14 +1831,14 @@ button[aria-label="Show Game Activity"]::before {
     height                  :               100%;
     transition              :               width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
-:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t:hover .members-3WRCEx,
+:not(.ChannelDms-channelmembers-wrap) :is(.membersWrap-3NUR2t, .membersWrap-3GwLFp):hover :is(.members-3WRCEx, .members-2y1nVj),
 .ChannelDms-channelmembers-wrap:hover {
     width                   :               240px;
     -webkit-box-shadow      :               var(--elevation-high);
     box-shadow              :               var(--elevation-high);
     transition              :               width 0.5s 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
-.ChannelDms-channelmembers-wrap :is(.membersWrap-3NUR2t, .members-3WRCEx, .privateChannels-oVe7HL),
+.ChannelDms-channelmembers-wrap :is(:is(.membersWrap-3NUR2t, .membersWrap-3GwLFp), :is(.members-3WRCEx, .members-2y1nVj), .privateChannels-oVe7HL),
 html #MemberCount {
     width                   :               100%;
 }
@@ -2062,7 +2062,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 
 /* winbutton padding */
-.winButton-3UMjdg {
+:is(.winButton-3UMjdg, .winButton-3SigSb) {
   padding-left              :               3px;
   padding-right             :               3px;
 }
@@ -2334,14 +2334,14 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 
 /* toolbar selected/hover icon glow */
-.title-31SJ6t .iconWrapper-2awDjA:hover{
+:is(.title-31SJ6t, .title-5wgnIa) .iconWrapper-2awDjA:hover{
     transition              :               0.2s ease;
     filter                  :               drop-shadow(0 0 5px #999) !important;
 }
-.title-31SJ6t .iconWrapper-2awDjA{
+:is(.title-31SJ6t, .title-5wgnIa) .iconWrapper-2awDjA{
     transition              :               0.2s ease;
 }
-.title-31SJ6t .selected-29KTGM{
+:is(.title-31SJ6t, .title-5wgnIa) .selected-29KTGM{
     transition              :               0.2s ease;
     filter                  :               drop-shadow(0 0 5px #999) !important;
 }
@@ -2442,13 +2442,13 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     transition              :               all 1s;
     margin-right            :               0;
 }
-.membersGroup-2eiWxl {
+:is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) {
 	height: 0px;
 	margin: 0px;
 	padding: 0px;
 	transition: .4s ease;
 }
-.members-3WRCEx:hover .membersGroup-2eiWxl {
+:is(.members-3WRCEx, .members-2y1nVj):hover :is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) {
 	height: 15px;
 	margin: 10px;
 }
@@ -2728,23 +2728,23 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 /* when youre offline, it shows a less cruel and scary message. */
 
-.tipTitle-3FYEQp {
+:is(.tipTitle-3FYEQp, .tipTitle-1uYSgK) {
 	content: "";
 	font-size               :               0px;
 }
-.tipTitle-3FYEQp::before {
+:is(.tipTitle-3FYEQp, .tipTitle-1uYSgK)::before {
 	content                 :               "Hey...";
 	font-size: 12px;
 }
-.tip-1AwED_ {
+:is(.tip-1AwED_, .tip-LnjT57) {
 	content                 :               "";
 	font-size               :               0px;
 }
-.tip-1AwED_::before {
+:is(.tip-1AwED_, .tip-LnjT57)::before {
 	content                 :               "You're Offline :3";
 	font-size               :               16px;
 }
-.problems-CvGwpb.slideIn-VAD-dp {
+:is(.problems-CvGwpb, .problems-724zaE):is(.slideIn-VAD-dp, .slideIn-3x7dEj) {
 	display                 :               none;
 }
 .container-2RRFHK.fixClipping-3GOd_d {
@@ -3020,8 +3020,8 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 
 
 /* bug fixes */
-.container-YkUktl .withTagAsButton-OsgQ9L,
-.container-YkUktl .withTagless-10ooWt {
+:is(.container-YkUktl, .container-1CH86i) :is(.withTagAsButton-OsgQ9L, .withTagAsButton-2_JkHX),
+:is(.container-YkUktl, .container-1CH86i) :is(.withTagless-10ooWt, .withTagless-Lx3LMo) {
 	background: transparent;
 }
 
@@ -3287,7 +3287,7 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 	transition: all 0.5s ease;
 }
 
-#app-mount .threadSidebarOpen-1LSXvU .content-1jQy2l>.container-3wLKDe {
+#app-mount :is(.threadSidebarOpen-1LSXvU, .threadSidebarOpen-lv7sGl) :is(.content-1jQy2l, .content-18rAwf)>.container-3wLKDe {
 	margin-right: 0;
 }
 
@@ -3444,7 +3444,7 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .userInfoSection-3her-v>div>div{
   text-align: center;
 }
-.threadSidebarOpen-1LSXvU~.container-3XgAHv .typing-2J1mQU{
+:is(.threadSidebarOpen-1LSXvU, .threadSidebarOpen-lv7sGl)~:is(.container-3XgAHv, .container-3s2w-i) .typing-2J1mQU{
   width: auto;
 }
 /* typing indicator */
