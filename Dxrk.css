@@ -297,10 +297,10 @@
 :root{
     --version-number        :               "1.0";
 }
-.wordmarkWindows-2dq6rw svg {
+.wordmarkWindows-1rsity svg {
    display                  :               none;
 }
-.wordmarkWindows-2dq6rw::before{
+.wordmarkWindows-1rsity::before{
    content                  :               'Dxrk';
    font-size                :               13px;
    font-weight              :               700;
@@ -308,7 +308,7 @@
    left                     :               -3px;
    position                 :               relative;
 }
-.wordmarkWindows-2dq6rw::after{
+.wordmarkWindows-1rsity::after{
     content                 :               'v' var(--version-number);
     font-size               :               11px;
     margin-left             :               2px;
