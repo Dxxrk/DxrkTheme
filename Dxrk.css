@@ -295,14 +295,14 @@
 
 /* adds watermark */
 :root{
-    --version-number        :               "1.0";
+    --version-number        :               "1.2";
 }
 .wordmarkWindows__05c46 svg {
    display                  :               none;
 }
 .wordmarkWindows__05c46::before{
    content                  :               'Dxrk';
-   font-size                :               13px;
+   font-size                :               15px;
    font-weight              :               700;
    top                      :               4px;
    left                     :               -3px;
@@ -310,7 +310,7 @@
 }
 .wordmarkWindows__05c46::after{
     content                 :               'v' var(--version-number);
-    font-size               :               11px;
+    font-size               :               15px;
     margin-left             :               2px;
     top                     :               4px;
     left                    :               -3px;
