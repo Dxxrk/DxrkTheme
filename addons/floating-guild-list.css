@@ -1,14 +1,14 @@
-#app-mount .guilds-2JjMmN {
+#app-mount .guilds_a4d4d9 {
     height: 99.2%;
     border-radius: 15px;
     margin-left: 10px;
     border-bottom-left-radius: 15px;
 }
-#app-mount .tree-3agP2X{
+#app-mount .tree_fea3ef{
     border-bottom-right-radius: 15px;
     margin-bottom: 0;
 }
-#app-mount .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+#app-mount .panels_a4d4d9 .container_b2ca13:last-child .flex_bba380 {
     position: fixed;
     bottom: calc(0% + 155px);
     left: 20px;
@@ -21,7 +21,7 @@
     flex-direction: column;
     padding: 0px 10px;
 }
-#app-mount .panels-3wFtMD>.container-YkUktl:last-child>.avatarWrapper-1B9FTW {
+#app-mount .panels_a4d4d9>.container_b2ca13:last-child>.avatarWrapper_b2ca13 {
     position: fixed;
     bottom: calc(0% + 20px);
     left: 23.5px;

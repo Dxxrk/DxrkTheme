@@ -4,7 +4,7 @@
 .roleCircle-1EgnFN {
     display: none;
 }
-.role__631a3 {
+.role_e4010c {
   position: relative;
   overflow: hidden;
   background: transparent;
@@ -13,7 +13,7 @@
   border: solid;
   border-width: 0px 0px 0px 2px;
 }
-.role__631a3:before {
+.role_e4010c:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -26,10 +26,10 @@
   opacity: .3;
   transition: .5s ease;
 }
-.role__631a3 .roleName_d19d33 {
+.role_e4010c .roleName_e4010c {
   padding-left: 4px;
 }
-.role__631a3:hover:before {
+.role_e4010c:hover:before {
   opacity: .7;
   filter: saturate(1.2);
 }
