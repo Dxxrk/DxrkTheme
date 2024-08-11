@@ -33,15 +33,16 @@
 @import url(https://dxxrk.github.io/DxrkTheme/addons/roles.css);
 
 /*Updated Server Rings*/
-@import url(https://dxxrk.github.io/DxrkTheme/addons/serverringsupdated.css
+@import url(https://dxxrk.github.io/DxrkTheme/addons/server-rings.css);
 
-/* Adds the Settings Modal to make certain uis like Settings, Boosting Gui and more customisable 
+
+/*Settings Modal for more settings and ui customization*/
 @import url(https://dxxrk.github.io/DxrkTheme/addons/SettingsModal.css);
-*/
 
-/* floating server list, Remove the comment if you want it 
+
+/* floating server list, Remove the comment if you want it */
 @import url(https://dxxrk.github.io/DxrkTheme/addons/floating-guild-list.css);
-*/
+
 
 
 /* add import links below this */
