@@ -1743,8 +1743,8 @@ button[aria-label="Show Game Activity"]::before {
 
 
 
-/* profile banner full background 
-.bannerPremium_c3e427:not(.accountProfileCard_b69b77 .banner_c3e427, .userPopout-2j1gM4 .banner_c3e427, #account .item-1OdjEX .popoutBanner_c3e427),.banner_c3e427:not(.accountProfileCard_b69b77 .banner_c3e427, .userPopout-2j1gM4 .banner_c3e427, #account .item-1OdjEX .popoutBanner_c3e427) {
+/* profile banner full background */
+.bannerPremium_c3e427:not(.accountProfileCard_b69b77 .banner_d5fdb1, .userPopout-2j1gM4 .banner_d5fdb1, #account .item-1OdjEX .popoutBanner_c3e427),.banner_d5fdb1:not(.accountProfileCard_b69b77 .banner_d5fdb1, .userPopout-2j1gM4 .banner_d5fdb1, #account .item-1OdjEX .popoutBanner_c3e427) {
   position                  :               absolute;
   height                    :               100%;
   width                     :               100%;
@@ -1797,7 +1797,7 @@ button[aria-label="Show Game Activity"]::before {
 }
 .userInfoSectionHeader-2mYYun {
     margin-top              :               5px;
-}*/
+}
 
 
 
@@ -2152,10 +2152,10 @@ button.button_a71a1c.height20-WSMpPs.button_dd4f85.lookFilled-yCfaCM.colorGreen-
 .focusLock-2tveLW .flex_dc333f, [class="flex_dc333f flex_ec1a20 horizontalReverse_dc333f horizontalReverse_d76671 flex_ec1a20 directionRowReverse_f644aa justifyStart_ec1a20 alignStretch_ec1a20 noWrap_ec1a20 footer-31IekZ footer-3ie9JP footerSeparator-VzAYwb"] {
     background-color        :               transparent !important;
 }
-.listRow_e4be58{
+.listRow_d2d6cb{
     transition              :               0.5s ease;
 }
-.listRow_e4be58:hover{
+.listRow_d2d6cb:hover{
     background-color        :             #393939;
     border-radius           :               16px;
 }
@@ -2401,7 +2401,7 @@ button.button_a71a1c.height20-WSMpPs.button_dd4f85.lookFilled-yCfaCM.colorGreen-
 
 
 /* banner fade out */
-.userPopout-2j1gM4 .banner_c3e427:after, #account .banner_c3e427:after{
+.userPopout-2j1gM4 .banner_d5fdb1:after, #account .banner_d5fdb1:after{
     content                 :               "";
     position                :                absolute;
     bottom                  :               0;
@@ -2412,7 +2412,7 @@ button.button_a71a1c.height20-WSMpPs.button_dd4f85.lookFilled-yCfaCM.colorGreen-
     height                  :               4em;
 }
 	
-.banner_c3e427 {
+.banner_d5fdb1 {
 	position: relative;
 }	
 
