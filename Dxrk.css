@@ -958,7 +958,7 @@ button[aria-label="Show Game Activity"]::before {
     border-radius           :               30px;
     margin-bottom           :               3px;
 }
-.cooldownWrapper_d7ebeb{
+.cooldownWrapper_f85cd6{
     position                :               relative;
     right                   :               1%;
 }
@@ -2255,7 +2255,7 @@ button.button_a71a1c.height20-WSMpPs.button_dd4f85.lookFilled-yCfaCM.colorGreen-
 
 
 /* message attachments */
-.messageAttachment__5dae1 .wrapper_f316dd, .messageAttachment__5dae1 .attachment_b52bef {
+.messageAttachment__5dae1 .wrapper_f316dd, .messageAttachment__5dae1 .fileWrapper_f46c86 {
     background-color        :             rgba(0, 0, 0, 0.062) !important;
     border-radius           :               10px;
 }
